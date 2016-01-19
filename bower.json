@@ -1,10 +1,11 @@
 {
   "name": "angular-ng-flat-datepicker",
+  version: '2.0.0',
   "authors": [
     "Surendra Kumar <surendrakhatikk24@gmail.com>"
   ],
   "description": "Lightweight Angular.js datepicker directive built with Moment.js.",
-  "main": "ng-flat-datepicker.js",
+  "main": "dist/ng-flat-datepicker.js",
   "moduleType": [
     "node"
   ],
