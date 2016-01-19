@@ -29,7 +29,8 @@
                     allowFuture: true,
                     dateFormat: null,
                     minDate: null,
-                    maxDate: null
+                    maxDate: null,
+					startYear : 1960
                 };
 
                 // Apply and init options
@@ -42,7 +43,7 @@
                 scope.currentWeeks    = [];
                 scope.daysNameList    = datesCalculator.getDaysNames();
                 scope.monthsList      = moment.months();
-                scope.yearsList       = datesCalculator.getYearsList();
+                scope.yearsList       = datesCalculator.getYearsList(scope.config.startYear);
 
                 // Display
                 scope.pickerDisplayed = false;

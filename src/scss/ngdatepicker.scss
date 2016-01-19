@@ -209,3 +209,10 @@ $default-color: #0093de; // Blue
 .ng-flat-datepicker-month-name::first-letter {
     text-transform: uppercase;
 }
+
+.ng-flat-datepicker-custom-select {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 250px;
+    width: 60px;
+}

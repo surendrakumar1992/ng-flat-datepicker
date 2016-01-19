@@ -14,11 +14,12 @@
 
         /**
          * List all years for the select
+			@startYear integer Dropdown list starting year
          * @return {[type]} [description]
          */
-        function getYearsList() {
+        function getYearsList(startYear) {
             var yearsList = [];
-            for (var i = 2005; i <= moment().year(); i++) {
+            for (var i = startYear; i <= moment().year(); i++) {
                 yearsList.push(i);
             }
             return yearsList;

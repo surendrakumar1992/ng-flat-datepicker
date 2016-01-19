@@ -13,7 +13,8 @@
 
         $scope.datepickerConfig = {
             allowFuture: false,
-            dateFormat: 'DD/MM/YYYY'
+            dateFormat: 'DD/MM/YYYY',
+			startYear : 2000 // Dropdown startYear Default start from 1960
         };
     }
 
