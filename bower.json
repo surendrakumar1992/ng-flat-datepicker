@@ -1,0 +1,25 @@
+{
+  "name": "angular-ng-flat-datepicker",
+  "authors": [
+    "Surendra Kumar <surendrakhatikk24@gmail.com>"
+  ],
+  "description": "Lightweight Angular.js datepicker directive built with Moment.js.",
+  "main": "ng-flat-datepicker.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "angular",
+    "date",
+    "picker"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
